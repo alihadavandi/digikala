@@ -1,0 +1,178 @@
+
+
+div.products{
+    width: 1190px;
+    height: 2423px;
+    position: relative;
+    right: 325px;
+    top: 27px;
+}
+
+div.products>div{
+    width: 297.5px;
+    height: 486.11px;
+    box-sizing: border-box;
+    padding: 12px 8px;
+    position: relative;
+    display: inline-block;
+    margin-left: -4px;
+    box-sizing: border-box;
+    border-left: .8px solid  rgb(224, 224, 230);
+    border-right: .8px solid  rgb(224, 224, 230);
+}
+
+div.products>div:hover{
+    box-shadow: 5px 5px 8px  rgb(224, 224, 230),-5px -5px 8px  rgb(224, 224, 230),-5px 5px 8px  rgb(224, 224, 230),5px -5px 8px  rgb(224, 224, 230);
+}
+
+div.products>div>div.top{
+    width: 280.7px;
+    height: 26.04px;
+    position: absolute;
+    line-height: 26.04px;
+}
+
+div.products>div>div.image{
+    width: 280.7px;
+    height: 244px;
+    position: absolute;
+    top: 40px;
+}
+div.products>div>div.image>img{
+    width: 280.7px;
+    height: 240px;
+    object-fit:contain;
+     
+}
+div.products>div>div.unkonwn{
+    width: 280.7px;
+    height: 28.8px;
+    position: absolute;
+    top: 286px;
+}
+
+div.products>div>div.describe{
+    width: 280.7px;
+    height:52px;
+    position: absolute;
+    top: 317px;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+    line-height: 52px;
+}
+
+
+div.products>div>div.note{
+    width: 280.7px;
+    height:26.04px;
+    position: absolute;
+    top: 370px;
+    font-size: 11px;
+    font-family: yekan;
+    font-weight: 400;
+    color: rgb(90, 92, 122);
+    line-height: 26.04px;
+}
+
+div.products>div>div.note>span.right>i{
+   color: rgb(16, 40, 255);
+   vertical-align: middle;
+   margin-right: 4px;
+   margin-left: 4px;
+}
+
+div.products>div>div.note>span.left{
+    position: absolute;
+    left: 0;
+
+
+}
+
+div.products>div>div.note>span.left>i{
+    color:rgb(249, 188, 0);
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-left: 4px;
+ }
+
+div.products>div>div.price{
+    width: 280.7px;
+    height:38.4px;
+    position: absolute;
+    top: 398px;
+    font-size: 16px;
+    font-family: yekan;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+    text-align: left;
+    line-height: 38.4px;
+}
+
+
+
+div.products>div>div.price>span.percent{
+    display: inline-block;
+    background-color:rgb(239, 57, 78) ;
+    color: white;
+    font-size:10px ;
+    font-family: yekan;
+    text-align: center;
+    width: 34px;
+    height: 20px;
+    border-radius: 16px;
+    line-height: 21px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+div.products>div>div.price>span{
+    display: inline-block;
+    font-size: 9px;
+    font-family: yekan;
+    color: rgb(63, 64, 100);
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 3px;
+    
+}
+div.products>div>div.discount{
+    width: 280.7px;
+    height:34.04px;
+    position: absolute;
+    top: 440px;
+    font-size:12px;
+    font-family:yekan;
+    font-weight:400;
+    color: rgb(195, 195, 206);
+    text-decoration: line-through;
+    text-align: left;
+}
+
+div.products>div>div.discount>p{
+    margin-left: 26px;
+}
+
+div.products>div:nth-child(4){
+    border-left: unset;
+}
+div.products>div:nth-child(8){
+    border-left: unset;
+}
+div.products>div:nth-child(12){
+    border-left: unset;
+}
+div.products>div:nth-child(20){
+    border-left: unset;
+    border-bottom: unset;
+}
+div.products>div:nth-child(17){
+    border-bottom: unset;
+}
+div.products>div:nth-child(18){
+    border-bottom: unset;
+}
+div.products>div:nth-child(19){
+    border-bottom: unset;
+}

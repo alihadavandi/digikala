@@ -1,0 +1,329 @@
+
+
+div.aside{
+    width: 270px;
+    height: 592px;
+    box-sizing: border-box;
+    border: .8px solid  rgb(224, 224, 230);
+    position:fixed;
+    top:210px;
+    left: 0px;
+    right: 24px;
+    border-radius: 8px;
+    margin-top:12px;
+
+}
+
+div.aside>div.filter{
+    width: 268.4px;
+    height: 72.2px;
+    padding:16px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+
+div.aside>div.filter>span.right{
+    display: inline-block;
+    color: rgb(63, 64, 100);
+    font-size: 19px;
+    font-family: yekan;
+    font-weight: 700;
+    line-height: 40.28px;
+}
+
+div.aside>div.filter>span.left{
+    display: inline-block;
+    color: rgb(25, 191, 211);
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: 700;
+    line-height: 26.04px;
+    margin-right:100px ;
+}
+
+div.aside>div.categories{
+    width: 268.4px;
+    height:57.05px;
+    padding:0px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 73px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+
+  
+}
+div.aside>div.categories>p{
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:57.05px;
+}
+div.aside>div.categories>p>i{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}
+div.aside>div.brands{
+    width: 268.4px;
+    height:57.05px;
+    padding:0px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top:131px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+
+div.aside>div.brands>p{
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:57.05px;
+}
+
+div.aside>div.brands>p>i{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}
+div.aside>div.digiplus{
+    width: 268.4px;
+    height:57.05px;
+    padding:0px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top:189px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+
+div.aside>div.digiplus>p{
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:57.05px;
+}
+
+
+div.aside>div.digiplus>p>i{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+div.aside>div.digiplus>p>svg{
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+
+div.aside>div.delivery{
+    width: 268.4px;
+    height:87.15px;
+    padding:0px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top:247px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+div.aside>div.delivery>h4{
+    font-size:15px;
+    font-family:yekan ;
+    font-weight:700;
+    color: rgb(63, 64, 100);
+    line-height: 60px;
+}
+
+div.aside>div.delivery>h4>img{
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+
+}
+
+div.aside>div.delivery>h4>span.checkbox{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 9999px;
+    border: .8px solid rgb(158, 159, 177);
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    left: -70px;
+    top: 7px;
+    transition: 300ms;
+   
+}
+
+input[type=checkbox]{
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    color: rgb(63, 64, 100);
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    background-color: rgb(158, 159, 177);
+   
+    -webkit-appearance: none;
+
+    transition:300ms;
+}
+input[type=checkbox]:checked{
+    background-color: rgb(25, 191, 211);
+    border-color: rgb(25, 191, 211);
+  
+    position: absolute;
+    right:0;
+}
+
+input[type=checkbox]:checked  span.checkbox{
+    background-color: rgb(25, 191, 211);
+    border-color: rgb(25, 191, 211);
+    
+    position: absolute;
+    right:0;
+}
+
+
+div.aside>div.delivery>p{
+    font-size:14px;
+    font-family:yekan;
+    font-weight:400;
+    color: rgb(118, 119, 144);
+}
+
+
+
+
+
+
+div.aside>div.prices{
+    width: 268.4px;
+    height:57.05px;
+    padding:0px 20px;
+    box-sizing: border-box;
+
+    position: absolute;
+    top:335px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+
+div.aside>div.prices>p{
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:57.05px;
+}
+
+div.aside>div.prices>p>i{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+div.aside>div.only-1{
+    width: 268.4px;
+    height:57.05px;
+    padding:0px 20px;
+    box-sizing: border-box;
+  
+    position: absolute;
+    top:393px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+
+div.aside>div.only-1>P>span.checkbox{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 9999px;
+    border: .8px solid rgb(158, 159, 177);
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    left: -70px;
+    top: 7px;
+    transition: 300ms;
+   
+}
+
+
+div.aside>div.only-1>p{
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:57.05px;
+}
+
+div.aside>div.only-2{
+    width: 268.4px;
+    height:89.3px;
+    padding:0px 20px;
+    box-sizing: border-box;
+  
+    position: absolute;
+    top:451px;
+    border-bottom: .8px solid rgb(224, 224, 230);
+}
+
+div.aside>div.only-2>span.checkbox{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 9999px;
+    border: .8px solid rgb(158, 159, 177);
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    left:-195px;
+    top: -35px;
+    transition: 300ms;
+   
+}
+div.aside>div.only-2>P{
+    width:180px;
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:35.05px;
+}
+div.aside>div.seller{
+    width: 268.4px;
+    height:56.25px;
+    padding:0px 20px;
+    box-sizing: border-box;
+    
+    position: absolute;
+    top:535px;
+   
+}
+
+div.aside>div.seller>p{
+    font-size: 15px;
+    color: rgb(63, 64, 100);
+    font-family: yekan;
+    font-weight: 700;
+    line-height:57.05px;
+}
+
+div.aside>div.seller>p>i{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

@@ -1,0 +1,246 @@
+
+div.more{
+    width:1024px;
+    height: 1650px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: .8px solid rgb(224, 224, 230) ;
+   
+    position: relative;
+    right: calc(50% - 1024px / 2);
+    top:50px;
+}
+
+div.more>div.head-slider{
+    width:1022.4px;
+    height:76px;
+    box-sizing: border-box;
+    padding: 16px 0px;
+ 
+    position: relative;
+}
+
+div.more>div.head-slider>div.short-slider{
+    width: 1014.4px;
+    height: 44px;
+    position: relative;
+    margin-right: 8px;
+}
+div.more>div.head-slider>div.short-slider>div.swiper-wrapper>div.first-slider{
+    width: 270px;
+    height: 44px;
+    margin-left: 12px;
+    box-sizing: border-box;
+    border-radius:9999px;
+    border: .8px solid rgb(230, 18, 61) !important;
+    color:  rgb(230, 18, 61) !important;
+    font-size:14px;
+    font-family: yekan;
+    font-weight: 700;
+    line-height: 44px;
+    background-color: rgb(228, 168, 176);
+    cursor: pointer;
+}
+
+div.more>div.head-slider>div.short-slider>div.swiper-wrapper>div.swiper-slide{
+    width: 270px;
+    height: 44px;
+    margin-left: 12px;
+    box-sizing: border-box;
+    border-radius:9999px;
+    border: .8px solid rgb(224, 224, 230);
+    color:rgb(63, 64, 100);
+    font-size:14px;
+    font-family: yekan;
+    font-weight: 700;
+    line-height: 44px;
+    cursor: pointer;
+}
+
+div.more>div.more-products{
+    width: 1022.4px;
+    height: 1571.81px;
+   
+    position: relative;
+    box-sizing: border-box;
+    top: 32px;
+    
+    padding: 0px 8px;
+    
+}
+
+div.more>div.more-products>div{
+    display: inline-block;
+    width: 251.6px;
+    height: 475.94px;
+    
+    box-sizing: border-box;
+    padding: 12px 8px;
+    border-left: .8px solid rgb(224, 224, 230);
+    border-bottom: .8px solid rgb(224, 224, 230);
+    margin-right: -3px;
+    position: relative;
+}
+
+div.more>div.more-products>div>div.logo{
+    width: 234.8px;
+    height: 26.04px;
+    position: absolute;
+
+    line-height: 26.04px;
+}
+div.more>div.more-products>div>div.logo>svg{
+    width: 64px;
+    height: 14px;
+}
+div.more>div.more-products>div>div.images{
+    width: 234.8px;
+    height: 244px;
+
+    position: absolute;
+    top: 40px;
+}
+
+div.more>div.more-products>div>div.images>img{
+    width: 240px;
+    height: 240px;
+    margin-right: calc(50% - 240px / 2);
+    object-fit: contain;
+    
+}
+
+div.more>div.more-products>div>div.describe{
+    width: 234.8px;
+    height:52px;
+    position: absolute;
+    top: 287px;
+  
+    font-size: 12px;
+    font-weight: 700;
+    font-family: yekan;
+    color: rgb(63, 64, 100);
+    line-height: 26.04px;
+}
+
+div.more>div.more-products>div>div.note{
+    width: 234.8px;
+    height: 23.8px;
+ 
+    position: absolute;
+    top: 341px;
+    font-size: 11px;
+    font-family: yekan;
+    font-weight: 400;
+    color: rgb(239, 57, 78);
+}
+
+div.more>div.more-products>div>div.price{
+    width: 234.8px;
+    height: 38.4px;
+ 
+    position: absolute;
+    top: 370px;
+    font-size: 16px;
+    font-family: yekan;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+    text-align: left;
+    line-height: 38.4px;
+}
+
+div.more>div.more-products>div>div.price>span{
+    font-size: 9px;
+    color:rgb(63, 64, 100);
+    margin-right: 2px;
+    
+}
+
+div.more>div.more-products>div>div.price>span.percent{
+    width:34px;
+    height:20px;
+    background-color:rgb(239, 57, 78);
+    font-size:10px;
+    font-family: yekan;
+    color: white;
+    line-height:21px;
+    text-align: center;
+    border-radius:16px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    display: inline-block;
+}
+
+div.more>div.more-products>div>div.discount{
+    width: 234.8px;
+    height: 26.04px;
+    
+    position: absolute;
+    top: 414px;
+    color: rgb(195, 195, 206);
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: 400;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+    text-decoration: line-through;
+}
+
+div.more>div.butten{
+    width:1011px;
+    height:133px;
+   
+    position: relative;
+    top:-104px;
+    box-sizing: border-box;
+   right: calc(50% - 1011px / 2);
+   border-top: .8px solid  rgb(224, 224, 230);
+
+    
+}
+
+div.more>div.butten>a{
+    width: 110.13px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    border: .8px solid rgb(239, 64, 86);
+    position: absolute;
+    color:rgb(239, 64, 86) ;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: yekan;
+    border-radius: 8px;
+    cursor: pointer;
+    right:calc(50% - 110.13px / 2);
+    top: 30px;
+    line-height: 24px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+div.more>div.more-products>div:nth-child(4){
+    border-left: unset;
+}
+
+div.more>div.more-products>div:nth-child(8){
+    border-left: unset;
+}
+div.more>div.more-products>div:nth-child(12){
+    border-left: unset;
+    border-bottom: unset;
+}
+div.more>div.more-products>div:nth-child(11){
+    border-bottom: unset;
+}
+div.more>div.more-products>div:nth-child(10){
+    border-bottom: unset;
+}
+div.more>div.more-products>div:nth-child(9){
+    border-bottom: unset;
+}
+
+div.more>div.more-products>div:hover{
+    box-shadow: 5px 5px 8px  rgb(224, 224, 230), -5px -5px 8px  rgb(224, 224, 230), 5px -5px 8px  rgb(224, 224, 230), -5px 5px 8px  rgb(224, 224, 230);
+}
